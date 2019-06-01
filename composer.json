@@ -1,0 +1,23 @@
+{
+  "name": "santino83/db",
+  "description": "db interaction example",
+  "type": "project",
+  "require": {
+    "php": ">=7",
+    "doctrine/orm": "^2.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Santino83\\DB\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Giorgio Maria Santini",
+      "email": "gsantini@voiptech.it"
+    }
+  ]
+}
